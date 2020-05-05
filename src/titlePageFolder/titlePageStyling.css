@@ -1,0 +1,47 @@
+#titleTextParent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.titleText { 
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    border: solid;
+    width: 80%;
+}
+
+#hello {
+    font-size: 100px;
+    padding: 2%;
+}
+
+#welcome {
+    font-size: 150px;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 1080px) {
+    #hello {
+        font-size: 80px;
+        padding: 2%;
+    }
+    
+    #welcome {
+        font-size: 100px;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #hello {
+        font-size: 40px;
+        padding: 2%;
+    }
+    
+    #welcome {
+        font-size: 60px;
+        padding-bottom: 2%;
+    }
+}

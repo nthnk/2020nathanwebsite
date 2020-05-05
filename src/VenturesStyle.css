@@ -1,0 +1,38 @@
+#venturesTitle{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    padding-bottom: 10%;
+}
+
+#venturesLine {
+    border-top: 1px solid black;
+    width: 80%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 1540px) {
+    #venturesTitle {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    #venturesTitle {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    #venturesTitle {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #venturesTitle {
+        font-size: 40px;
+    }
+}
