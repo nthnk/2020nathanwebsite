@@ -12,7 +12,7 @@ function SkillIcons() {
     return (
         <div className="SkillIcons">
             <Fade>
-                <div style={{display: "flex", justifyContent: "center", paddingTop: "3%"}}>
+                <div id="firstRowSkills" style={{display: "flex", justifyContent: "center", paddingTop: "3%"}}>
                     <div style={{width: "100%"}}>
                         <div style={{display: "flex", justifyContent: "center"}}>
                             <img src={jsLogo} id="jsLogo" height="auto" width="auto" alt="JavaScript Logo"/>
