@@ -118,6 +118,11 @@
         height: 150px;
         width: 400px;
     }
+
+    .VentureIcons p {
+        font-size: 20px;
+        line-height: 35px;
+    }
 }
 
 @media screen and (max-width: 1330px) {

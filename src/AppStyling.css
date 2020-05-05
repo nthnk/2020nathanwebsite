@@ -50,18 +50,19 @@ body {
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
     #mainContentChild {
         width: 100%;
         border-radius: 0px;
     }
     
     #copyrightParent {
-        width: 30%;
+        width: 100%;
+        background: transparent;
     }
 
     #copyrightChild {
-        font-size: 15px;
+        font-size: 25px;
     }
 }
 

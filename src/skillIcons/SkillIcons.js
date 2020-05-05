@@ -5,6 +5,7 @@ import cssLogo from './cssLogo.png'
 import reactLogo from './reactLogo.png'
 import mongoDBLogo from './mongoDBLogo.png'
 import expressjsLogo from './expressjsLogo.png'
+import gitLogo from './gitLogo.png'
 import "./SkillIcons.css"
 import Fade from 'react-reveal/Fade'
 
@@ -12,57 +13,69 @@ function SkillIcons() {
     return (
         <div className="SkillIcons">
             <Fade>
-                <div id="firstRowSkills" style={{display: "flex", justifyContent: "center", paddingTop: "3%"}}>
-                    <div id="jsIcon" style={{width: "100%"}}>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <img src={jsLogo} id="jsLogo" height="auto" width="auto" alt="JavaScript Logo"/>
+                <div className="masterFirstRow">
+                    <div className="firstRowSkills">
+                        <div id="jsIcon" style={{width: "100%"}}>
+                            <div id="jsLogoParent">
+                                <img id="jsLogoChild" src={jsLogo} alt="JavaScript Logo"/>
+                            </div>
+                            <div id="jsTitleParent">
+                                <h1 id="jsTitleChild">JavaScript</h1>
+                            </div>
                         </div>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <h1>JavaScript</h1>
+                        <div id="htmlIcon" style={{width: "100%"}}>
+                            <div id="htmlLogoParent">
+                                <img id="htmlLogoChild" src={htmlLogo} alt="HTML Logo"/>
+                            </div>
+                            <div id="htmlTitleParent">
+                                <h1 id="htmlTitleChild">HTML</h1>
+                            </div>
                         </div>
-                    </div>
-                    <div style={{width: "100%"}}>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <img src={htmlLogo} id="htmlLogo" height="auto" width="auto" alt="HTML Logo"/>
-                        </div>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <h1>HTML</h1>
-                        </div>
-                    </div>
-                    <div style={{width: "100%"}}>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <img src={cssLogo} id="cssLogo" height="auto" width="auto" alt="CSS Logo"/>
-                        </div>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <h1>CSS</h1>
+                        <div id="cssIcon" style={{width: "100%"}}>
+                            <div id="cssLogoParent">
+                                <img id="cssLogoChild" src={cssLogo} alt="CSS Logo"/>
+                            </div>
+                            <div id="cssTitleParent">
+                                <h1 id="cssTitleChild">CSS</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </Fade>
             <Fade>
-                <div style={{display: "flex", justifyContent: "center", paddingTop: "3%"}}>
-                    <div style={{width: "100%"}}>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <img src={reactLogo} id="reactLogo" height="auto" width="auto" alt="React Logo"/>
+                <div className="masterSecondRow">
+                    <div className="secondRowSkills">
+                        <div className="reactIcon">
+                            <div id="reactLogoParent">
+                                <img id="reactLogoChild" src={reactLogo} alt="React Logo"/>
+                            </div>
+                            <div id="reactTitleParent">
+                                <h1 id="reactTitleChild">React</h1>
+                            </div>
                         </div>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <h1>React</h1>
+                        <div className="gitIcon">
+                            <div id="gitLogoParent">
+                                <img id="gitLogoChild" src={gitLogo} alt="React Logo"/>
+                            </div>
+                            <div id="gitTitleParent">
+                                <h1 id="gitTitleChild">Git</h1>
+                            </div>
                         </div>
-                    </div>
-                    <div style={{width: "100%"}}>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <img src={expressjsLogo} id="expressjsLogo" height="auto" width="auto" alt="ExpressJS Logo"/>
+                        <div className="expressIcon">
+                            <div id="expressLogoParent">
+                                <img id="expressLogoChild" src={expressjsLogo} alt="ExpressJS Logo"/>
+                            </div>
+                            <div id="expressTitleParent">
+                                <h1 id="expressTitleChild">Express.js</h1>
+                            </div>
                         </div>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <h1>Express.js</h1>
-                        </div>
-                    </div>
-                    <div style={{width: "100%"}}>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <img src={mongoDBLogo} id="mongoDBLogo" height="auto" width="auto" alt="MongoDB Logo"/>
-                        </div>
-                        <div style={{display: "flex", justifyContent: "center"}}>
-                            <h1>MongoDB</h1>
+                        <div className="mongoIcon">
+                            <div id="mongoLogoParent">
+                                <img id="mongoLogoChild" src={mongoDBLogo} alt="MongoDB Logo"/>
+                            </div>
+                            <div id="mongoTitleParent">
+                                <h1 id="mongoTitleChild">MongoDB</h1>
+                            </div>
                         </div>
                     </div>
                 </div>

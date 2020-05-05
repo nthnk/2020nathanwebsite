@@ -1,15 +1,59 @@
-#musicTitle{
+/* Styling for My Music title */
+
+#musicTitleParent {
+    display: flex;
+    justify-content: center;
+}
+
+#musicTitleChild{
     text-align: center;
     text-decoration: underline;
     font-family: 'Amatic SC', cursive;
-    font-size: 50px;
-    padding-bottom: 10%;
+    font-size: 80px;
+    padding-bottom: 5%;
 }
+
+/* Styling for My Music title */
+
+/* styling for Spotify web player */
+
+.musicContent {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+#spotifyRadioParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#spotifyRadioChild {
+    width: 800px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+/* styling for Spotify web player */
+
+/* styling for music paragraph description */
 
 .music p {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.musicDesc {
+    width: 100%;
+}
+
+#musicDescParent {
+    width: 90%;
 }
 
 #spotifyLink {
@@ -21,3 +65,146 @@
 #spotifyLink:hover {
     text-decoration: underline;
 }
+
+/* styling for music paragraph description */
+
+/* media query styling for musicTitle */
+
+@media screen and (max-width: 1540px) {
+    #musicTitleChild {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    #musicTitleChild {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    #musicTitleChild {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #musicTitleChild {
+        font-size: 40px;
+    }
+}
+
+/* media query styling for musicTitle */
+
+/* media query styling for musicContent */
+
+@media screen and (max-width: 2300px) {
+    #spotifyRadioChild {
+        width: 600px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 2010px) {
+    .music p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    #spotifyRadioChild {
+        width: 500px;
+        height: 160px;
+    }
+    
+    .music p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #musicDescParent {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #spotifyRadioChild {
+        width: 400px;
+        height: 160px;
+    }
+    
+    .music p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #musicDescParent {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .musicContent {
+        display: inline-block;
+    }
+
+    .musicDesc {
+        display: flex;
+        justify-content: center;
+        padding-top: 3%;
+    }
+    
+    #spotifyRadioChild {
+        width: 700px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #spotifyRadioChild {
+        width: 600px;
+        height: 160px;
+    }
+    
+    .music p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #spotifyRadioChild {
+        width: 500px;
+        height: 160px;
+    }
+    
+    .music p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #spotifyRadioChild {
+        width: 300px;
+        height: 160px;
+    }
+    
+    #musicDescParent {
+        width: 70%;
+    }
+
+    .music p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #spotifyRadioChild {
+        width: 250px;
+    }
+}
+
+/* media query styling for musicContent */
