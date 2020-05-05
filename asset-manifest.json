@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/github.io/2020nathanwebsite/static/css/main.89e4ba52.chunk.css",
+    "main.js": "/github.io/2020nathanwebsite/static/js/main.97b750b4.chunk.js",
+    "main.js.map": "/github.io/2020nathanwebsite/static/js/main.97b750b4.chunk.js.map",
+    "runtime-main.js": "/github.io/2020nathanwebsite/static/js/runtime-main.bd714a79.js",
+    "runtime-main.js.map": "/github.io/2020nathanwebsite/static/js/runtime-main.bd714a79.js.map",
+    "static/js/2.e6051d4e.chunk.js": "/github.io/2020nathanwebsite/static/js/2.e6051d4e.chunk.js",
+    "static/js/2.e6051d4e.chunk.js.map": "/github.io/2020nathanwebsite/static/js/2.e6051d4e.chunk.js.map",
+    "index.html": "/github.io/2020nathanwebsite/index.html",
+    "precache-manifest.2aa9fa1fafe7a1a6181475aee67542f8.js": "/github.io/2020nathanwebsite/precache-manifest.2aa9fa1fafe7a1a6181475aee67542f8.js",
+    "service-worker.js": "/github.io/2020nathanwebsite/service-worker.js",
+    "static/css/main.89e4ba52.chunk.css.map": "/github.io/2020nathanwebsite/static/css/main.89e4ba52.chunk.css.map",
+    "static/js/2.e6051d4e.chunk.js.LICENSE.txt": "/github.io/2020nathanwebsite/static/js/2.e6051d4e.chunk.js.LICENSE.txt",
+    "static/media/cssLogo.png": "/github.io/2020nathanwebsite/static/media/cssLogo.f334a25c.png",
+    "static/media/expressjsLogo.png": "/github.io/2020nathanwebsite/static/media/expressjsLogo.87a0e081.png",
+    "static/media/gitLogo.png": "/github.io/2020nathanwebsite/static/media/gitLogo.dc89f8fc.png",
+    "static/media/greenbricksLogo.png": "/github.io/2020nathanwebsite/static/media/greenbricksLogo.e122d43b.png",
+    "static/media/htmlLogo.png": "/github.io/2020nathanwebsite/static/media/htmlLogo.abfa4f1f.png",
+    "static/media/jsLogo.png": "/github.io/2020nathanwebsite/static/media/jsLogo.cdb6cb18.png",
+    "static/media/mePicture.jpg": "/github.io/2020nathanwebsite/static/media/mePicture.3fe57f71.jpg",
+    "static/media/mongoDBLogo.png": "/github.io/2020nathanwebsite/static/media/mongoDBLogo.e6cebe06.png",
+    "static/media/reactLogo.png": "/github.io/2020nathanwebsite/static/media/reactLogo.8ac4154e.png",
+    "static/media/resume.pdf": "/github.io/2020nathanwebsite/static/media/resume.435df69c.pdf",
+    "static/media/sortrightLogo.png": "/github.io/2020nathanwebsite/static/media/sortrightLogo.ab868328.png",
+    "static/media/AppStyling.css": "/github.io/2020nathanwebsite/static/media/sunset.6f0beab7.jpg",
+    "static/media/sustainthegrainLogo.png": "/github.io/2020nathanwebsite/static/media/sustainthegrainLogo.41e48ee0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd714a79.js",
+    "static/js/2.e6051d4e.chunk.js",
+    "static/css/main.89e4ba52.chunk.css",
+    "static/js/main.97b750b4.chunk.js"
+  ]
+}
