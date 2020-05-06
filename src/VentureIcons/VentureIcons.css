@@ -1,0 +1,245 @@
+.VentureIcons h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.VentureIcons p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 55px;
+    padding: 5%;
+    font-size: 30px;
+}
+
+.VentureIcons img {
+    border-radius: 10px;
+    height: 300px;
+    width: 700px;
+}
+
+.VentureIcons a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.VentureIcons a:hover {
+    text-decoration: underline;
+}
+
+.firstRow {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.gbParent {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.gbChild{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+    margin-left: 10%;
+}
+
+#gbLogoParent {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.srParent {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.srChild{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+    margin-right: 10%;
+}
+
+#srLogoParent {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.stgParent {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 3%;
+}
+
+.stgChild{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+    margin-left: 10%;
+}
+
+#stgLogoParent {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+@media screen and (max-width: 2480px) {
+    .VentureIcons img {
+        height: 250px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 2040px) {
+    .VentureIcons img {
+        height: 200px;
+        width: 500px;
+    }
+
+    .VentureIcons h1 {
+        font-size: 50px;
+    }
+
+    .VentureIcons p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1730px) {
+    .VentureIcons img {
+        height: 150px;
+        width: 400px;
+    }
+
+    .VentureIcons p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .VentureIcons img {
+        height: 120px;
+        width: 300px;
+    }
+
+    .VentureIcons h1 {
+        font-size: 40px;
+    }
+
+    .VentureIcons p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .VentureIcons img {
+        height: 80px;
+        width: 200px;
+    }
+
+    .VentureIcons h1 {
+        font-size: 30px;
+    }
+
+    .VentureIcons p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .firstRow {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .gbParent {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .gbChild {
+        margin-left: 0%;
+        width: 90%;
+    }
+
+    .srParent {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .srChild {
+        margin-right: 0%;
+        width: 90%;
+    }
+
+    .stgParent {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .stgChild {
+        margin-left: 0%;
+        width: 90%;
+    }
+    
+    .VentureIcons img {
+        height: 200px;
+        width: 500px;
+    }
+
+    .VentureIcons h1 {
+        font-size: 40px;
+    }
+
+    .VentureIcons p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .VentureIcons img {
+        height: 150px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .VentureIcons img {
+        height: 120px;
+        width: 300px;
+    }
+
+    .VentureIcons h1 {
+        font-size: 30px;
+    }
+
+    .VentureIcons p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .VentureIcons img {
+        height: 100px;
+        width: 250px;
+    }
+}

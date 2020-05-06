@@ -1,0 +1,206 @@
+.SkillIcons h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
+.SkillIcons {
+    padding-bottom: 5%;
+}
+
+/* for the first row of technologies section */
+
+.masterFirstRow {
+    display: flex;
+    justify-content: center;
+}
+
+.firstRowSkills { 
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#jsIcon, #htmlIcon, #cssIcon {
+    width: 100%;
+}
+
+#jsLogoParent, #htmlLogoParent, #cssLogoParent {
+    display: flex;
+    justify-content: center;
+}
+
+#jsLogoChild, #htmlLogoChild, #cssLogoChild {
+    height: 300px;
+    width: auto;
+}
+
+#jsTitleParent, #htmlTitleParent, #cssTitleParent {
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+/* for the first row of technologies section */
+
+/* for the second row of technologies section */
+
+.masterSecondRow {
+    display: flex;
+    justify-content: center;
+}
+
+.secondRowSkills {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 90%;
+}
+
+.reactIcon, .gitIcon, .expressIcon, .mongoIcon {
+    width: 100%;
+}
+
+#reactLogoParent, #gitLogoParent, #expressLogoParent, #mongoLogoParent {
+    display: flex;
+    justify-content: center;
+}
+
+#reactLogoChild, #gitLogoChild, #expressLogoChild, #mongoLogoChild {
+    height: 300px;
+    width: auto;
+}
+
+#reactTitleParent, #gitTitleParent, #expressTitleParent, #mongoTitleParent {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+/* for the second row of technologies section */
+
+/* media queries */
+
+@media screen and (max-width: 2000px) {
+    .SkillIcons h1 {
+        font-size: 45px;
+    }
+    
+    #jsLogoChild, #htmlLogoChild, #cssLogoChild {
+        height: 200px;
+        width: auto;
+    }
+
+    #reactLogoChild, #gitLogoChild, #expressLogoChild, #mongoLogoChild {
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .SkillIcons h1 {
+        font-size: 35px;
+    }
+    
+    #jsLogoChild, #htmlLogoChild, #cssLogoChild {
+        height: 200px;
+        width: auto;
+    }
+
+    #reactLogoChild, #gitLogoChild, #expressLogoChild, #mongoLogoChild {
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .SkillIcons h1 {
+        font-size: 30px;
+    }
+    
+    #jsLogoChild, #htmlLogoChild, #cssLogoChild {
+        height: 150px;
+        width: auto;
+    }
+
+    #reactLogoChild, #gitLogoChild, #expressLogoChild, #mongoLogoChild {
+        height: 150px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .SkillIcons h1 {
+        font-size: 25px;
+    }
+    
+    #jsLogoChild, #htmlLogoChild, #cssLogoChild {
+        height: 100px;
+        width: auto;
+    }
+
+    #reactLogoChild, #gitLogoChild, #expressLogoChild, #mongoLogoChild {
+        height: 100px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .SkillIcons h1 {
+        font-size: 20px;
+    }
+    
+    #jsLogoChild, #htmlLogoChild, #cssLogoChild {
+        height: 50px;
+        width: auto;
+    }
+
+    #reactLogoChild, #gitLogoChild, #expressLogoChild, #mongoLogoChild {
+        height: 50px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .SkillIcons h1 {
+        font-size: 15px;
+    }
+
+    .firstRowSkills, .secondRowSkills {
+        width: 80%;
+    }
+    
+    #jsLogoChild, #htmlLogoChild, #cssLogoChild {
+        height: 30px;
+        width: auto;
+    }
+
+    #reactLogoChild, #gitLogoChild, #expressLogoChild, #mongoLogoChild {
+        height: 30px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .SkillIcons h1 {
+        font-size: 15px;
+    }
+
+    .firstRowSkills, .secondRowSkills {
+        width: 90%;
+    }
+    
+    #jsLogoChild, #htmlLogoChild, #cssLogoChild {
+        height: 30px;
+        width: auto;
+    }
+
+    #reactLogoChild, #gitLogoChild, #expressLogoChild, #mongoLogoChild {
+        height: 30px;
+        width: auto;
+    }
+}
+
+/* media queries */

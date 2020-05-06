@@ -1,0 +1,97 @@
+#titleTextParent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.titleText { 
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    border: solid;
+    width: 80%;
+}
+
+#hello {
+    font-size: 100px;
+    padding: 2%;
+}
+
+#welcome {
+    font-size: 150px;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 1080px) {
+    #hello {
+        font-size: 80px;
+        padding: 2%;
+    }
+    
+    #welcome {
+        font-size: 100px;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #hello {
+        font-size: 40px;
+        padding: 2%;
+    }
+    
+    #welcome {
+        font-size: 60px;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hello {
+        padding-top: 5%;
+    }
+    
+    #welcome {
+        padding-bottom: 5%;
+    }
+
+    #titleTextParent {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #hello {
+        font-size: 30px;
+        padding: 2%;
+    }
+    
+    #welcome {
+        font-size: 50px;
+        padding-bottom: 2%;
+    }
+
+    #titleTextParent {
+        padding-top: 40%;
+        padding-bottom: 60%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #hello {
+        font-size: 35px;
+        padding: 2%;
+    }
+    
+    #welcome {
+        font-size: 45px;
+        padding-bottom: 2%;
+    }
+
+    #titleTextParent {
+        padding-top: 50%;
+        padding-bottom: 60%;
+    }
+}
